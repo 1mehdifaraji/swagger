@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "author": "Mehdi faraji <mahdifarajideveloper@gmail.com>",
+  "license": "MIT",
+  "description": "Multi-file openapi swagger boilerplate .",
+  "scripts": {
+    "build": "swagger-cli bundle src/openapi.yaml --outfile _build/openapi.yaml --type yaml"
+  },
+  "dependencies": {
+    "swagger-cli": "^4.0.4"
+  }
+}
